@@ -1,4 +1,4 @@
-# es6_basics
+# ES6 Basics
 Javascript ES6 basic features
 
 ES6 - https://www.w3schools.com/js/js_es6.asp
@@ -10,7 +10,7 @@ ECMAScript 2015 was the second major revision to JavaScript.
 
 ECMAScript 2015 is also known as ES6 and ECMAScript 6.
 
-1) let
+## 1) let
 
 The let keyword allows you to declare a variable with block scope.
 
@@ -24,7 +24,7 @@ var x = 10;
 // Here x is 10
 ```
 
-2) const
+## 2) const
 
 The const keyword allows you to declare a constant (a JavaScript variable with a constant value).
 
@@ -40,7 +40,7 @@ var x = 10;
 // Here x is 10
 ```
 
-3) Arrow Functions
+## 3) Arrow Functions
 
 Arrow functions allows a short syntax for writing function expressions.
 
@@ -56,7 +56,7 @@ const x = (x, y) => x * y;
 const x = (x, y) => { return x * y };
 ```
 
-4) The Spread (...) Operator
+## 4) The Spread (...) Operator
 
 ```
 const q1 = ["Jan", "Feb", "Mar"];
@@ -74,7 +74,7 @@ const numbers = [23,55,21,87,56];
 let maxValue = Math.max(...numbers);
 ```
 
-5) The For/Of Loop
+## 5) The For/Of Loop
 
 The JavaScript for/of statement loops through the values of an iterable objects.
 
@@ -95,7 +95,7 @@ for (let x of cars) {
 }
 ```
 
-6) JavaScript Maps
+## 6) JavaScript Maps
 
 Being able to use an Object as a key is an important Map feature.
 
@@ -107,7 +107,7 @@ const fruits = new Map([
 ]);
 ```
 
-7) Set
+## 7) Set
 
 ```
 // Create a Set
@@ -119,7 +119,7 @@ letters.add("b");
 letters.add("c");
 ```
 
-8) Map Methods
+## 8) Map Methods
 
 ```
 Method	    Description
@@ -137,7 +137,7 @@ Property	Description
 size	    Returns the number of Map elements
 ```
 
-9) JavaScript Classes
+## 9) JavaScript Classes
 
 JavaScript Classes are templates for JavaScript Objects.
 
@@ -161,7 +161,7 @@ const myCar1 = new Car("Ford", 2014);
 const myCar2 = new Car("Audi", 2019);
 ```
 
-10) JavaScript Promises
+## 10) JavaScript Promises
 
 A Promise is a JavaScript object that links "Producing Code" and "Consuming Code".
 
@@ -191,7 +191,7 @@ myPromise.then(function(value) {
 });
 ```
 
-11) The Symbol Type
+## 11) The Symbol Type
 
 A JavaScript Symbol is a primitive datatype just like Number, String, or Boolean.
 
@@ -215,7 +215,7 @@ person[id] = 140353;
 // but person.id is still undefined
 ```
 
-12) Default Parameter Values
+## 12) Default Parameter Values
 
 ES6 allows function parameters to have default values.
 
@@ -227,7 +227,7 @@ function myFunction(x, y = 10) {
 myFunction(5); // will return 15
 ```
 
-13) Function Rest Parameter
+## 13) Function Rest Parameter
 
 The rest parameter (...) allows a function to treat an indefinite number of arguments as an array:
 
@@ -242,7 +242,7 @@ function sum(...args) {
 let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 ```
 
-14) String.includes()
+## 14) String.includes()
 
 The includes() method returns true if a string contains a specified value, otherwise false:
 
@@ -252,7 +252,7 @@ let text = "Hello world, welcome to the universe.";
 text.includes("world")    // Returns true
 ```
 
-15) String.startsWith()
+## 15) String.startsWith()
 
 The startsWith() method returns true if a string begins with a specified value, otherwise false:
 
@@ -263,7 +263,7 @@ let text = "Hello world, welcome to the universe.";
 text.startsWith("Hello")   // Returns true
 ```
 
-16) String.endsWith()
+## 16) String.endsWith()
 
 The endsWith() method returns true if a string ends with a specified value, otherwise false:
 
@@ -273,7 +273,7 @@ var text = "John Doe";
 text.endsWith("Doe")    // Returns true
 ```
 
-17) Array.from()
+## 17) Array.from()
 
 The Array.from() method returns an Array object from any object with a length property or any iterable object.
 
@@ -283,7 +283,7 @@ Create an Array from a String:
 Array.from("ABCDEFG")   // Returns [A,B,C,D,E,F,G]
 ```
 
-18) Array keys()
+## 18) Array keys()
 
 The keys() method returns an Array Iterator object with the keys of an array.
 
@@ -300,7 +300,7 @@ for (let x of keys) {
 }
 ```
 
-19) Array find()
+## 19) Array find()
 
 The find() method returns the value of the first array element that passes a test function.
 
@@ -316,7 +316,7 @@ function myFunction(value, index, array) {
 }
 ```
 
-20) Array findIndex()
+## 20) Array findIndex()
 
 The findIndex() method returns the index of the first array element that passes a test function.
 
@@ -332,7 +332,7 @@ function myFunction(value, index, array) {
 }
 ```
 
-21) New Math Methods
+## 21) New Math Methods
 
 ES6 added the following methods to the Math object:
 
@@ -344,7 +344,7 @@ Math.log2()
 Math.log10()
 ```
 
-22) The Math.trunc() Method
+## 22) The Math.trunc() Method
 
 Math.trunc(x) returns the integer part of x:
 
@@ -357,7 +357,7 @@ Math.trunc(4.2);    // returns 4
 Math.trunc(-4.2);    // returns -4
 ```
 
-23) The Math.sign() Method
+## 23) The Math.sign() Method
 
 Math.sign(x) returns if x is negative, null or positive:
 
@@ -368,7 +368,7 @@ Math.sign(0);    // returns 0
 Math.sign(4);    // returns 1
 ```
 
-24) The Math.cbrt() Method
+## 24) The Math.cbrt() Method
 
 Math.cbrt(x) returns the cube root of x:
 
@@ -379,7 +379,7 @@ Math.cbrt(64);    // returns 4
 Math.cbrt(125);    // returns 5
 ```
 
-25) The Math.log2() Method
+## 25) The Math.log2() Method
 
 Math.log2(x) returns the base 2 logarithm of x:
 
@@ -388,7 +388,7 @@ Example
 Math.log2(2);    // returns 1
 ```
 
-26) New Number Properties
+## 26) New Number Properties
 
 ES6 added the following properties to the Number object:
 
@@ -400,19 +400,19 @@ EPSILON Example
 let x = Number.EPSILON;
 ```
 
-27) MIN_SAFE_INTEGER Example
+## 27) MIN_SAFE_INTEGER Example
 
 ```
 let x = Number.MIN_SAFE_INTEGER;
 ```
 
-28) MAX_SAFE_INTEGER Example
+## 28) MAX_SAFE_INTEGER Example
 
 ```
 let x = Number.MAX_SAFE_INTEGER;
 ```
 
-29) New Number Methods
+## 29) New Number Methods
 
 ES6 added 2 new methods to the Number object:
 
@@ -421,7 +421,7 @@ Number.isInteger()
 Number.isSafeInteger()
 ```
 
-30) The Number.isInteger() Method
+## 30) The Number.isInteger() Method
 
 The Number.isInteger() method returns true if the argument is an integer.
 
@@ -431,7 +431,7 @@ Number.isInteger(10);        // returns true
 Number.isInteger(10.5);      // returns false
 ```
 
-31) The Number.isSafeInteger() Method
+## 31) The Number.isSafeInteger() Method
 
 A safe integer is an integer that can be exactly represented as a double precision number.
 
@@ -443,7 +443,7 @@ Number.isSafeInteger(10);    // returns true
 Number.isSafeInteger(12345678901234567890);  // returns false
 ```
 
-32) New Global Methods
+## 32) New Global Methods
 
 ES6 added 2 new global number methods:
 
@@ -452,7 +452,7 @@ isFinite()
 isNaN()
 ```
 
-33) The isFinite() Method
+## 33) The isFinite() Method
 
 The global isFinite() method returns false if the argument is Infinity or NaN.
 
@@ -464,7 +464,7 @@ isFinite(10/0);       // returns false
 isFinite(10/1);       // returns true
 ```
 
-34) The isNaN() Method
+## 34) The isNaN() Method
 
 The global isNaN() method returns true if the argument is NaN. Otherwise it returns false:
 
@@ -473,7 +473,7 @@ Example
 isNaN("Hello");       // returns true
 ```
 
-35) Object entries()
+## 35) Object entries()
 
 Example
 Create an Array Iterator, and then iterate over the key/value pairs:
@@ -498,7 +498,7 @@ The entries() method returns an Array Iterator object with key/value pairs:
 
 The entries() method does not change the original array.
 
-36) Modules
+## 36) Modules
 
 Modules are imported in two differen ways:
 
@@ -516,7 +516,7 @@ Import a default export from the file message.js:
 import message from "./message.js";
 ```
 
-37) Object.entries()
+## 37) Object.entries()
 
 Object.entries() makes it simple to use objects in loops:
 
@@ -532,7 +532,7 @@ for (let [fruit, value] of Object.entries(fruits)) {
 
 Object.values() are similar to Object.entries(), but returns a single dimension array of the object values:
 
-38) JavaScript Async Functions
+## 38) JavaScript Async Functions
 
 Waiting for a Timeout
 
@@ -547,7 +547,7 @@ async function myDisplay() {
 myDisplay();
 ```
 
-39) JavaScript Asynchronous Iteration
+## 39) JavaScript Asynchronous Iteration
 
 ECMAScript 2018 added asynchronous iterators and iterables.
 
@@ -559,7 +559,7 @@ for await () {}
 ```
 JavaScript asynchronous iteration is supported in all modern browsers since January 2020:
 
-40) JavaScript Promise.finally
+## 40) JavaScript Promise.finally
 
 ECMAScript 2018 finalizes the full implementation of the Promise object with Promise.finally:
 
@@ -572,7 +572,7 @@ myPromise.catch();
 myPromise.finally();
 ```
 
-41) JavaScript Object Rest Properties
+## 41) JavaScript Object Rest Properties
 
 ECMAScript 2018 added rest properties.
 
@@ -587,7 +587,7 @@ z; // { a: 3, b: 4 }
 ```
 Object rest properties is supported in all modern browsers since January 2020:
 
-42) New JavaScript RegExp Features
+## 42) New JavaScript RegExp Features
 
 ECMAScript 2018 added 4 new RegExp features:
 
@@ -600,7 +600,7 @@ ECMAScript 2018 added 4 new RegExp features:
 
 The new RegExp features is supported in all modern browsers since June 2020:
 
-43) JavaScript Threads
+## 43) JavaScript Threads
 
 In JavaScript you use the Web Workers API to create threads.
 
@@ -608,17 +608,17 @@ Worker threads are used to execute code in the background so that the main progr
 
 Worker threads run simultaneously with the main program. Simultaneous execution of different parts of a program can be time-saving.
 
-44) JavaScript Shared Memory
+## 44) JavaScript Shared Memory
 
 Shared memory is a feature that allows threads (different parts of a program) to access and update the same data in the same memory.
 
 Instead of passing data between threads, you can pass a SharedArrayBuffer object that points to the memory where data is saved.
 
-45) SharedArrayBuffer
+## 45) SharedArrayBuffer
 
 A SharedArrayBuffer object represents a fixed-length raw binary data buffer similar to the ArrayBuffer object.
 
-46) JavaScript Object fromEntries()
+## 46) JavaScript Object fromEntries()
 
 ES2019 added the Object method fromEntries() to JavaScript.
 
@@ -635,7 +635,7 @@ const fruits = [
 const myObj = Object.fromEntries(fruits);
 ```
 
-47) Optional catch Binding
+## 47) Optional catch Binding
 
 From ES2019 you can omit the catch parameter if you don't need it:.
 
@@ -660,7 +660,7 @@ try {
 }
 ```
 
-48) JavaScript Array flat()
+## 48) JavaScript Array flat()
 
 ES2019 added the Array flat() method to JavaScript.
 
@@ -672,7 +672,7 @@ const myArr = [[1,2],[3,4],[5,6]];
 const newArr = myArr.flat();
 ```
 
-49) JavaScript Array flatMap()
+## 49) JavaScript Array flatMap()
 
 ES2019 added the Array flatMap() method to JavaScript.
 
@@ -684,7 +684,7 @@ const myArr = [1, 2, 3, 4, 5, 6];
 const newArr = myArr.flatMap((x) => x * 2);
 ```
 
-50) Stable Array sort()
+## 50) Stable Array sort()
 
 ES2019 revised the Array sort() method.
 
@@ -708,7 +708,7 @@ const myArr = [
 ];
 ```
 
-51) Revised JSON.stringify()
+## 51) Revised JSON.stringify()
 
 ES2019 revised the JSON stringify() method.
 
@@ -723,7 +723,7 @@ Before ES2019, using JSON.stringify()JSON on UTF-8 code points (U+D800 to U+DFFF
 
 After this revision, strings with UTF-8 code points convert safely with JSON.stringify(), and back to the original using JSON.parse().
 
-52) Separator Symbols
+## 52) Separator Symbols
 
 Line separators and paragraph separator symbols (\u2028 and \u2029) are now allowed in string literals.
 
@@ -735,7 +735,7 @@ Example
 let text = "\u2028";
 ```
 
-53) Revised Function toString()
+## 53) Revised Function toString()
 
 ES2019 revised the Function toString() method.
 
@@ -752,7 +752,7 @@ function myFunction(p1, p2) {
 }
 ```
 
-54) The Nullish Coalescing Operator (??)
+## 54) The Nullish Coalescing Operator (??)
 
 The ?? operator returns the first argument if it is not nullish (null or undefined).
 
@@ -765,7 +765,7 @@ let text = "missing";
 let result = name ?? text;
 ```
 
-55) The Optional Chaining Operator (?.)
+## 55) The Optional Chaining Operator (?.)
 
 The Optional Chaining Operator returns undefined if an object is undefined or null (instead of throwing an error).
 
@@ -775,7 +775,7 @@ const car = {type:"Fiat", model:"500", color:"white"};
 let name = car?.name;
 ```
 
-56) The &&= Operator
+## 56) The &&= Operator
 
 The Logical AND Assignment Operator is used between two values.
 
@@ -787,7 +787,7 @@ let x = 10;
 x &&= 5;
 ```
 
-57) The ||= Operator
+## 57) The ||= Operator
 
 The Logical OR Assignment Operator is used between two values.
 
@@ -799,7 +799,7 @@ let x = 10;
 x ||= 5;
 ```
 
-58) The ??= Operator
+## 58) The ??= Operator
 
 The Nullish Coalescing Assignment Operator is used between two values.
 
@@ -811,7 +811,7 @@ let x = 10;
 x ??= 5;
 ```
 
-59) JavaScript Numeric Separator (_)
+## 59) JavaScript Numeric Separator (_)
 
 ES2021 intoduced the numeric separator (_) to make numbers more readable:
 
@@ -820,7 +820,7 @@ Example
 const num = 1_000_000_000;
 ```
 
-60) JavaScript Array at()
+## 60) JavaScript Array at()
 
 ES2022 intoduced the array method at():
 
@@ -832,7 +832,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits.at(2);
 ```
 
-61) JavaScript Object Constructors
+## 61) JavaScript Object Constructors
 
 Example
 ```
@@ -844,7 +844,7 @@ function Person(first, last, age, eye) {
 }
 ```
 
-62) Object Types (Blueprints) (Classes)
+## 62) Object Types (Blueprints) (Classes)
 
 The examples from the previous chapters are limited. They only create single objects.
 
@@ -861,7 +861,7 @@ const myFather = new Person("John", "Doe", 50, "blue");
 const myMother = new Person("Sally", "Rally", 48, "green");
 ```
 
-63) JavaScript Object Prototypes
+## 63) JavaScript Object Prototypes
 
 All JavaScript objects inherit properties and methods from a prototype.
 
@@ -948,7 +948,7 @@ Person.prototype.name = function() {
 };
 ```
 
-64) JavaScript Iterators
+## 64) JavaScript Iterators
 
 The iterator protocol defines how to produce a sequence of values from an object.
 
@@ -966,7 +966,7 @@ done	true if the iterator has completed
         false if the iterator has produced a new value
 ```
 
-65) Home Made Iterable
+## 65) Home Made Iterable
 
 This iterable returns never ending: 10,20,30,40,.... Everytime next() is called:
 
@@ -990,7 +990,7 @@ n.next(); // Returns 20
 n.next(); // Returns 30
 ```
 
-66) Symbol Iterator
+## 66) Symbol Iterator
 
 A JavaScript iterable is an object that has a Symbol.iterator.
 
@@ -1037,7 +1037,7 @@ while (true) {
 }
 ```
 
-67) Interpolation
+## 67) Interpolation
 
 Template literals provide an easy way to interpolate variables and expressions into strings.
 
@@ -1050,7 +1050,7 @@ ${...}
 `This is ${index} number`
 ```
 
-68) Variable Substitutions
+## 68) Variable Substitutions
 
 Template literals allow variables in strings:
 
@@ -1062,7 +1062,7 @@ let lastName = "Doe";
 let text = `Welcome ${firstName}, ${lastName}!`;
 ```
 
-69) Expression Substitution
+## 69) Expression Substitution
 
 Template literals allow expressions in strings:
 
@@ -1074,7 +1074,7 @@ let VAT = 0.25;
 let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
 ```
 
-70) HTML Templates
+## 70) HTML Templates
 
 Example
 ```
@@ -1089,6 +1089,6 @@ for (const x of tags) {
 html += `</ul>`;
 ```
 
-71) Destructuring Assignment
+## 71) Destructuring Assignment
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
